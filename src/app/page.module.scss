@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 .hero {
   height: 100svh;
   text-align: center;
   padding-top: 10vh;
+  font-size: 3rem;
 }
 .title {
-  font-family: 'Dancing Script', cursive;
   font-size: 7rem;
   margin-bottom: 2rem;
+}
+
+.description {
+  font-family: SF_IceLemon;
 }

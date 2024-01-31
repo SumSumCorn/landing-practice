@@ -1,19 +1,11 @@
 :root {
 }
-@font-face {
-  font-family: 'SF_IceLemon';
-  src: url('/public/fonts/SF-TTF.ttf');
-  /* src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') */
-  /* format('woff'); */
-  font-weight: normal;
-  font-style: normal;
-}
 
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: 'SF_IceLemon', 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif;
   color: #555;
   margin: 0;
   padding: 0;
