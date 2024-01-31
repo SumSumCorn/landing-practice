@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.scss';
-import bg from '@/assets/images/bread1.jpg';
+import bg from '@/assets/images/bread2.jpg';
 import { Dancing_Script } from 'next/font/google';
 
 const dancingScript = Dancing_Script({
