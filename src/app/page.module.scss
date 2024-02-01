@@ -1,14 +1,16 @@
-.hero {
-  height: 100svh;
-  text-align: center;
-  padding-top: 10vh;
-  font-size: 3rem;
+.sectionWrapper {
+  position: relative;
+  scroll-snap-align: center;
+  height: 100vh;
 }
-.title {
-  font-size: 7rem;
-  margin-bottom: 2rem;
+.scrollWrapper {
+  scroll-snap-type: y mandatory;
+  height: 100dvh;
+  overflow: auto;
 }
 
-.description {
-  font-family: SF_IceLemon;
+@media (max-width: 700px) {
+  .title {
+    font-size: 3rem;
+  }
 }
